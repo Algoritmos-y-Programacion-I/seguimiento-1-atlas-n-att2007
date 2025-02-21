@@ -1,7 +1,7 @@
 /*
 * Analisis
-* Descripcion del programa:
-* Entradas:
+* Descripcion del programa:Calcular el costo y elaborar las faturas de cada paquete de viaje vendido
+* Entradas:Nombre, Edad, Número de documento de identidad y Ciudad
 * Salidas: 
 * Ejemplo:
 */
@@ -25,7 +25,8 @@ public class Atlas {
 	public void run()
 	{   
         // Declaracion de info a pedir del usuario (completar)
-        String nombre;
+        String nombre, identidad, ciudad;
+        Int edad;
         // Saludo
         System.out.println("Bienvenido al programa de viajes EVENTOS ATLAS realizado por los estudiantes de Algoritmos y programacion I de la Universidad ICESI.");
         // Pedir info al usuario (completar)
@@ -34,6 +35,13 @@ public class Atlas {
 
         // ...
         System.out.println("Bienvenido " + nombre + "!");
+        System.out.println("Cuál es tu Edad?");
+        edad = escaner.nextInt();
+        escaner.nextLine();
+        System.out.println("Cuál es tu documento de identidad?");
+        identidad = escaner.nextLine();
+        System.out.println("Cuál es tu ciudad?");
+        ciudad = escaner.nextLine();
         // ...
 
         // Declaracion de salidas calculadas (completar)
